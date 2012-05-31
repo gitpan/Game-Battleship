@@ -1,0 +1,13 @@
+Changes
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+README
+dist.ini
+lib/Game/Battleship.pm
+lib/Game/Battleship/Craft.pm
+lib/Game/Battleship/Grid.pm
+lib/Game/Battleship/Player.pm
+t/00-load.t
+t/01-methods.t
