@@ -1,5 +1,5 @@
 package Game::Battleship::Craft;
-$VERSION = '0.0301';
+$VERSION = '0.0302';
 use strict;
 use warnings;
 use Carp;
@@ -23,7 +23,7 @@ sub new {
         hits => $args{hits} || 0,
     };
 
-    # Default the id to the uppercased first char of name.
+    # Default the id to the upper-cased first char of name.
     $self->{id} = ucfirst substr $self->{name}, 0, 1
         unless defined $self->{id};
 
@@ -71,12 +71,12 @@ Battleship
 =item * id => $STRING
 
 A scalar identifier to use to indicate position on the grid.  If one
-is not provided, the uppercased first name character will be used by
+is not provided, the upper-cased first name character will be used by
 default.
 
 Currently, it is required that this be a single uppercase letter (the
 first letter of the craft name, probably), since a C<hit> will be
-indicated by "lowercasing" this mark on a player grid.
+indicated by "lower-casing" this mark on a player grid.
 
 =item * name => $STRING
 

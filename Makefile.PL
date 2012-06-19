@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Battelship game implementation",
+  "ABSTRACT" => "\"You sunk my battleship!\"",
   "AUTHOR" => "Gene Boggs <gene\@cpan.org>",
   "BUILD_REQUIRES" => {
     "Test::More" => 0
@@ -26,7 +26,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.0502",
+  "VERSION" => "0.0503",
   "test" => {
     "TESTS" => "t/*.t"
   }

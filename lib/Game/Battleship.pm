@@ -1,10 +1,10 @@
 package Game::Battleship;
-# ABSTRACT: Battelship game implementation
+# ABSTRACT: "You sunk my battleship!"
 
 use strict;
 use warnings;
 
-our $VERSION = '0.0502';
+our $VERSION = '0.0503';
 
 use Carp;
 use Game::Battleship::Player;
@@ -20,8 +20,6 @@ Game::Battleship - "You sunk my battleship!"
   $g->add_player('Alisa');
   my $winner = $g->play();
   print $winner->name(), " wins!\n";
-  my @player_objects = @{ $g->players };
-  my $player_obj = $g->player('Professor Snape');
 
 =head1 DESCRIPTION
 
@@ -305,9 +303,9 @@ Make standalone GUI programs too...
 
 Enhance to include these features:
 sonar imaging from your submarine.
-2 exocet missles fired from your aircraft carrier.
-1 tomahawk missle fired from your battleship.
-2 apache missles fired from your destroyer.
+2 Exocet missiles fired from your aircraft carrier.
+1 Tomahawk missile fired from your battleship.
+2 Apache missile fired from your destroyer.
 2 torpedoes fired from your submarine.
 2 recon airplanes for surveillance.
 

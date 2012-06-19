@@ -1,5 +1,5 @@
 package Game::Battleship::Grid;
-$VERSION = '0.0301';
+$VERSION = '0.0302';
 use strict;
 use warnings;
 use Carp;
@@ -289,7 +289,7 @@ Allow diagonal craft placement.
 Allow placement restriction rules (e.g. not on edges, not adjacent,
 etc.) as an arrayref of boundary equations or regular expressions.
 
-Allow some type of interactive craft repositioning.
+Allow some type of interactive craft re-positioning.
 
 Allow > 2D playing spaces.
 

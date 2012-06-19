@@ -1,5 +1,9 @@
 Revision history for Games-Battleship
 
+0.0503 Tue Jun 19 2012
+    Added Test::PodSpelling to dist.ini and fixed more, horrendous,
+    embarrassing typos in the POD.  OOF.
+
 0.0502 Tue Jun 19 2012
     - Repair horrid doc typo.
 

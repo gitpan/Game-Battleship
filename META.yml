@@ -1,5 +1,5 @@
 ---
-abstract: 'Battelship game implementation'
+abstract: "\"You sunk my battleship!\""
 author:
   - 'Gene Boggs <gene@cpan.org>'
 build_requires:
@@ -17,4 +17,4 @@ requires:
   Carp: 0
   strict: 0
   warnings: 0
-version: 0.0502
+version: 0.0503

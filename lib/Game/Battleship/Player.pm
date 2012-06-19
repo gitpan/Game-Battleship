@@ -1,5 +1,5 @@
 package Game::Battleship::Player;
-$VERSION = '0.0501';
+$VERSION = '0.0502';
 use strict;
 use warnings;
 use Carp;
@@ -212,7 +212,7 @@ If not provided, the string "player_1" or "player_2" is used.
 
 Array reference of C<Game::Battleship::Craft> objects.
 
-If not explicitely provided, the standard fleet (with 5 ships) is
+If not explicitly provided, the standard fleet (with 5 ships) is
 created by default.
 
 =item * dimensions => [$WIDTH, $HEIGHT]
@@ -243,7 +243,7 @@ Return the playing grid as a "flush-left" text matrix like this:
   . . . . . A . . . B
 
 Eventually, this method will respect the game type and return an
-apppropriate representation, such as a PNG file or XML, etc.
+appropriate representation, such as a PNG file or XML, etc.
 
 =item B<strike> $PLAYER, @COORDINATE
 
@@ -258,7 +258,7 @@ object and the coordinate must be given as a numeric pair.
 On success, an "x" is placed on the striking player's "opponent map
 grid" (a C<Game::Battleship::Grid> object attribute named for the
 opponent) at the given coordinate, the opponent's "craft grid" is
-updated by lowercasing the C<Game::Battleship::Craft> object C<id>
+updated by lower-casing the C<Game::Battleship::Craft> object C<id>
 at the given coordinate, the opponent C<Game::Battleship::Craft>
 object C<hits> attribute is incremented, the striking player's
 C<score> attribute is incremented, and a one (i.e. true) is returned.
