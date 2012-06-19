@@ -4,7 +4,7 @@ package Game::Battleship;
 use strict;
 use warnings;
 
-our $VERSION = '0.0501';
+our $VERSION = '0.0502';
 
 use Carp;
 use Game::Battleship::Player;
@@ -26,13 +26,13 @@ Game::Battleship - "You sunk my battleship!"
 =head1 DESCRIPTION
 
 A C<Game::Battleship> object represents a battleship game between
-players.  Each has a fleet of vessles and operates with a pair of
+players.  Each has a fleet of vessels and operates with a pair of
 playing grids  One is for their own fleet and one for where the
 enemy has been seen.
 
 Everything is an object with default but mutable attributes.  This way
 games can have two or more players each with a single fleet of custom
-vessles.  These vessles are pretty simple and standard right now...
+vessels.  These vessels are pretty simple and standard right now...
 
 A game can be played with the handy C<play()> method or for finer
 control, use individual methods of the C<Game::Battleship::*>

@@ -1,5 +1,8 @@
 Revision history for Games-Battleship
 
+0.0502 Tue Jun 19 2012
+    - Repair horrid doc typo.
+
 0.0501 Thu May 31 2012
     - Shaking the inappropriate, orphaned cpan-rating by renaming.
     - Refactored distrobution with Dist::Zilla.
